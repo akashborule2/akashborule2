@@ -1,27 +1,257 @@
-<h1 align="center">Hi 👋, I'm akash borule</h1>
-<h3 align="center">a passinate IT engineer from india</h3>
+[8:48 pm, 16/01/2023] onkar shinde: <!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial=scale=1.0">
+        <title>Responsive Portfolio using HTML and CSS</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="left_Side">
+                <div class="profileText">
+                    <div class="imgBx">
+                        <img src="img.jpeg">
+          …
+[8:48 pm, 16/01/2023] onkar shinde: @import url('https://fonts.googleapis.com/css?family=Poopins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poopins', sans-serif;
+}
+body
+{
+background: lightblue;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+.container
+{
+ position: relative;
+ width: 100%;
+ max-width: 1000px;   
+ min-height: 1000px;
+ margin: 50px;
+ background: white;
+ display: grid;
+ grid-template-columns: 1fr 2fr;
+ box-shadow: 0 35px 55px rgb(0, 0, 0, 0.1);
+}
+.container .left_Side
+{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profileText .imgBx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileText h2
+{
+color: #fff;
+font-size: 1.5em;
+margin-top: 20px;
+text-transform: uppercase;
+text-align: center;
+font-weight: 600;
+line-height: 1.4em;
+}
+.contactInfo
+{
+    padding-top: 40px;
+}
+.title
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contactInfo ul
+{
+position: relative;
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=akashborule2&label=Profile%20views&color=0e75b6&style=flat" alt="akashborule2" /> </p>
+}
+.contactInfo ul li
+{
+    position: rlelative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon
+{
+display: inline-block;
+width: 30px;
+font-size: 18px;
+color: aqua;
+}
+.contactInfo ul li span
+{
+    color: #fff;
+   font-weight: 300; 
+}
+.contactInfo.education li
+{
+    margin-bottom: 15px;
+}
+.contactInfo.education h5
+{
+    color: aqua;
+    font-weight: 500;
+}
+.contactInfo.education h4:nth-child(2)
+{
+    color: rgb(221, 211, 211);
+    font-weight: 500;
+}
+.contactInfo.education h4
+{
+    color: #fff;
+    font-weight: 300; 
+}
 
-- 📫 How to reach me **akashsureshraoborule**
+.contactInfo.language .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
 
-- ⚡ Fun fact **i am funny**
+.contactInfo.language .percent div
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/akash borule" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="akash borule" height="30" width="40" /></a>
-<a href="https://fb.com/akash borule" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="akash borule" height="30" width="40" /></a>
-<a href="https://instagram.com/akki_r45" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="akki_r45" height="30" width="40" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=akashborule2&show_icons=true&locale=en&layout=compact" alt="akashborule2" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=akashborule2&show_icons=true&locale=en" alt="akashborule2" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=akashborule2&" alt="akashborule2" /></p>
-![image](https://user-images.githubusercontent.com/122801724/212707739-b0777776-17ab-4c54-8a1e-adcfbd334215.png)
-
+.container .right_Side
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.about
+{
+    margin-bottom: 50px;
+}
+.about:last-child
+{
+    margin-bottom: 0;
+}
+.title2
+{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p
+{
+color: #333;
+}
+.about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .box .topic
+{
+    min-width: 150px;
+}
+.about .box .topic h5
+{
+     text-transform: uppercase;
+     color: #848c90;
+     font-weight: 600;
+}
+.about .box .text h4
+{
+     text-transform: uppercase;
+     color: #2a7da2;
+     font-size: 16px;
+}
+.skills .box
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.skills .box h4
+{
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+}
+.skills .box .percent
+{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: rgb(240, 235, 235);
+}
+.skills .box .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+.interest ul
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.interest ul li
+{
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.interest ul li .fa
+{
+    color: #03a9f4;
+    font-size: 18px;
+    width: 20px;
 

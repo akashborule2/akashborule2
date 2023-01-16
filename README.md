@@ -1,9 +1,11 @@
-<h1 align="center">Hi 👋, I'm akash borule</h1>
+<1 align="center">Hi 👋, I'm akash borule</h1>
 <h3 align="center">a passinate IT engineer from india</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=akashborule2&label=Profile%20views&color=0e75b6&style=flat" alt="akashborule2" /> </p>
 
-- 📫 How to reach me **akashsureshraoborule**
+- 🌱 I’m currently learning **graphic design,ui ux**
+
+- 📫 How to reach me **akashsureshraoborule@gmail.com**
 
 - ⚡ Fun fact **i am funny**
 
@@ -22,5 +24,3 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=akashborule2&show_icons=true&locale=en" alt="akashborule2" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=akashborule2&" alt="akashborule2" /></p>
-![image](https://user-images.githubusercontent.com/122801724/212714038-4c3f3b98-b0f4-4370-aa37-6488934b6810.png)
-
